@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+}
+
+.footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #f8f9fa; /* Light gray */
+}
+
+/* Optional: Light background colors for sidebar and body for debugging */
+.bg-light {
+  background-color: #ffffff; /* White */
+}
+
+.table-container {
+  max-height: 60vh;
+  overflow-y: auto;
+}
